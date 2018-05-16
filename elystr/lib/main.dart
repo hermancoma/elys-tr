@@ -19,6 +19,10 @@ class MyApp extends StatelessWidget {
               withLocalStorage: true,
             )
       },
+      theme: new ThemeData(
+        primaryColor: Colors.lightBlue[800],
+        accentColor: Colors.cyan[600],
+      ),
     );
     return webView;
   }
