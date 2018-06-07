@@ -23,7 +23,8 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.lightBlue[800],
         accentColor: Colors.cyan[600],
       ),
+      debugShowCheckedModeBanner: false,
     );
     return webView;
   }
-}
+} 
